@@ -1,0 +1,33 @@
+/* godot.css */
+/* @theme godot */
+
+@import 'gaia';
+
+@font-face {
+  font-family: 'Ubuntu';
+  src: url('assets/fonts/Ubuntu-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Lilita';
+  src: url('assets/fonts/LilitaOne-Regular.ttf') format('truetype');
+}
+
+section {
+  font-family: 'Ubuntu', sans-serif;
+  background-color: #ecf1f6;
+  color: #414042;
+  font-size: 2.5em;
+}
+
+h1, h2, h3, h4, h5, h6, h1 strong {
+  font-family: 'Lilita', sans-serif;
+  font-weight: normal;
+  color: #478cbf;
+}
+
+section::after {
+  font-family: 'Lilita', sans-serif;
+  font-weight: normal;
+  color: #7fafd5;
+}
