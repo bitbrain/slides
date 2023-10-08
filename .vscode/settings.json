@@ -1,5 +1,5 @@
 {
     "markdown.marp.themes": [
-        "godot.css"
+        "godot.css", "dash.css"
     ]
 }
