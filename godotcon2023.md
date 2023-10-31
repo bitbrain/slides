@@ -8,7 +8,7 @@ marp: true
 
 # **Super-charging content production with Godot addons**
 
-Building a pipeline to predictable produce game content. 
+Building a pipeline to produce game content predictably.
 
 ---
 
@@ -17,12 +17,12 @@ Building a pipeline to predictable produce game content.
 
 - working on a dwarven pixelart RPG! 💎⛏️
 - maintainer of **pandora** and **beehave** 🐝
-- loves Godot 💖🤖
+- Godot = 💖
 
 ---
 # Godot's Design Philosophy
 
-> [...] new features from the core developers often focus on what will benefit the most users first. 
+> [...] new features from the core developers often focus on what will benefit the most users first.
 
 source:
 https://docs.godotengine.org/en/stable/getting_started/introduction/godot_design_philosophy.html
@@ -39,7 +39,7 @@ https://docs.godotengine.org/en/stable/getting_started/introduction/godot_design
 # Plugins
 
 Example: `addons/dialogic/plugin.cfg`
-```
+```javascript
 [plugin]
 
 name="Dialogic"
@@ -58,7 +58,7 @@ https://github.com/coppolaemilio/dialogic/blob/main/addons/dialogic/plugin.cfg
 
 Example: `addons/fmod/fmod.gdextension`
 
-```
+```javascript
 [configuration]
 entry_symbol = "fmod_library_init"
 compatibility_minimum = 4.1
@@ -89,19 +89,52 @@ Exploring the categories of Godot addons.
 
 Accellarate and automate common processes.
 
-TODO: add picture decoration
+![bg right:60%](assets/img/cyborg.jpg)
 
 ---
-# Workflow: Aseprite example
 
-TODO
+![bg](assets/img/aseprite.png)
+
+---
+
+
+![bg](assets/img/aseprite-wizard.png)
 
 ---
 
 # Integration addons
 
-- show example of workflow enhancing plugins
-- add image
+![bg left:50%](assets/img/ethernet.jpg)
+
+Connect any tool directly into Godot Engine.
+
+---
+
+![bg right:52%](assets/img/fmod-studio.jpg)
+
+# FMOD GDExtension
+
+`utopia-rise/fmod-gdextension`
+
+`alessandrofama/fmod-for-godot`
+
+![width:300px invert](assets/img/fmod.png)
+
+---
+
+
+![bg left:40%](assets/img/balls.jpg)
+
+![width:600px](assets/img/jolt-logo.svg)
+
+Godot extension that integrates the Jolt physics engine.
+
+`godot-jolt/godot-jolt`
+
+<br/>
+
+- works with `CharacterBody3D` and other familiar Godot nodes out of the box (drop-in replacement)
+
 
 ---
 
@@ -152,12 +185,16 @@ Building reliable workflows that produce content for your game.
 - Is it a common problem a lot of people solved before?
 
 ---
+
+<center>
+
 # Production Point Principle
 
-    Image: A balanced scale with prototyping on one side and production on the other.
-    Engagement: "Who here has shifted a game from the prototyping phase to production and felt the need to re-evaluate their tools and addons?"
-    Key Points:
-        Discussion on how the importance of tools and systems evolves from prototyping to production.
+### by 🖤 HeartBeast
+
+<img class="avatar" src="assets/img/heartbeast.jpg">
+
+</center>
 
 ---
 

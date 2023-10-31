@@ -13,11 +13,16 @@
   src: url('assets/fonts/LilitaOne-Regular.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: 'CascadiaMono';
+  src: url('assets/fonts/CascadiaMono.ttf') format('truetype');
+}
+
 section {
   font-family: 'Ubuntu', sans-serif;
   background-color: #edf0f3;
   color: #414042;
-  font-size: 2.5em;
+  font-size: 32px;
 }
 
 h1, h2 {
@@ -38,4 +43,63 @@ section::after {
   font-family: 'Lilita', sans-serif;
   font-weight: normal;
   color: #7fafd5;
+}
+
+
+blockquote {
+  font-size: 1.5em;
+  text-align: left;
+  font-weight: 700;
+}
+
+blockquote::after {
+  content: "";
+}
+
+
+blockquote > p:after {
+  content: "“";
+  font-family: "Times New Roman,serif;";
+  font-weight: 700;
+  color: var(--color-dimmed);
+}
+
+code {
+  background: #e0e2e6;
+  color: black;
+  border-radius: 0.5em;
+  padding: 0.2em 0.5em;
+  font-family: "CascadiaMono";
+}
+
+marp-pre {
+  background: #15171a;
+  border-radius: 0.5em;
+  padding: 0.2em 0.5em;
+}
+
+marp-pre > code {
+  color: #dae4ed;
+  font-size: 3em;
+}
+
+marp-pre > code .hljs-string {
+  color: #50bd6a;
+}
+
+marp-pre > code .hljs-number {
+  color: #eb9433;
+}
+
+table tr > th {
+  background-color: #45627f;
+  color: white;
+}
+
+
+.avatar {
+  border-radius: 0.5em;
+  width: 200px;
+  height: 200px;
+  margin-top: 60px;
 }
