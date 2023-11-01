@@ -102,6 +102,17 @@ Accellarate and automate common processes.
 
 ---
 
+![bg right:50%](assets/img/gdunit.png)
+
+# Unit Testing
+
+- `bitwes/Gut`
+- `MikeSchulze/gdUnit4`
+- `Spycemyster/GDMUT`
+- `watplugin/wat`
+
+---
+
 # Integration addons
 
 ![bg left:50%](assets/img/ethernet.jpg)
@@ -110,7 +121,7 @@ Connect any tool directly into Godot Engine.
 
 ---
 
-![bg right:52%](assets/img/fmod-studio.jpg)
+![bg right:40%](assets/img/fmod-studio.jpg)
 
 # FMOD GDExtension
 
@@ -118,7 +129,10 @@ Connect any tool directly into Godot Engine.
 
 `alessandrofama/fmod-for-godot`
 
+<div style="text-align: center; margin-top:90px">
+
 ![width:300px invert](assets/img/fmod.png)
+</div>
 
 ---
 
@@ -138,7 +152,7 @@ Godot extension that integrates the Jolt physics engine.
 
 ---
 
- # Editor tools
+ # Extending the editor
 
 - show example of feature extending addons
 - add image
@@ -286,9 +300,23 @@ A **good** addon should be:
 
 - useful
 - well-documented
+- well-presented
 - tested
 - **maintained** or **archived**
 - compatible
+
+---
+
+# Interesting Proposals
+
+- `#8114` Better discoverability of curated add-ons into editor
+- `#7925` add-on manifests
+- `#1205` New Add-On (sub-project) system
+- `#831` Add support for global plugins/universal addons
+- `#3367` Add ExtensionDevelopmentPlugin for in-editor native extension development
+
+
+_source: <u>github.com/godotengine/godot-proposals</u>_
 
 ---
 # Questions?
