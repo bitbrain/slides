@@ -138,13 +138,13 @@ Godot extension that integrates the Jolt physics engine.
 
 ---
 
- # Feature extending addons
+ # Editor tools
 
 - show example of feature extending addons
 - add image
 ---
 
-# Template repositories
+# Templates
 
 - show example of template repo addon
 - add image
@@ -156,33 +156,8 @@ Godot extension that integrates the Jolt physics engine.
 - Useful: https://github.com/godotengine/awesome-godot
 - Goldmine: https://github.com/search?q=godot%2Baddon
 - Supportive: https://itch.io/search?q=godot%2Baddon
+- Bonus: https://godotshaders.com/
 
----
-
-# Content Pipelines
-
-Building reliable workflows that produce content for your game.
-
-
----
-
-# Task Complexity
-
-| S | M | L | XL |
-|---|---|---|----|
-| fix translation | add new language | add voicelines | dialogue system |
-| change color of sword| update sword animation|add new weapon type| itemization system|
-| fix sound timing| add new sound effect| dynamic sound playback | integrating FMOD |
-| fix level collision | rework existing level | add new level | procedural level generation |
-
----
-
-# Identify the bottleneck
-
-- Is the task a one-off?
-- Does finishing the task create new work after?
-- How much is human error a factor?
-- Is it a common problem a lot of people solved before?
 
 ---
 
@@ -194,32 +169,114 @@ Building reliable workflows that produce content for your game.
 
 <img class="avatar" src="assets/img/heartbeast.jpg">
 
+<u>heartgamedev.substack.com/p/production-point</u>
 </center>
 
 ---
 
-# Accellarate Prototyping
-    Image: An artist's canvas with various game elements quickly added.
-    Engagement: "Can anyone share an experience where an addon saved them significant time during prototyping?"
-    Key Points:
-        Highlight the strengths of addons: Rapid development, quick feature integrations, testing ideas swiftly.
+![bg](assets/img/production-point.jpg)
+
+<div style="float:right; margin-top:-50px">source: <u>heartgamedev.substack.com/p/production-point</u></div>
+
 ---
 
-# Accellarate Production
-    Image: An artist's canvas with various game elements quickly added.
-    Engagement: "Can anyone share an experience where an addon saved them significant time during prototyping?"
-    Key Points:
-        Highlight the strengths of addons: Rapid development, quick feature integrations, testing ideas swiftly.
+![bg](assets/img/ludumdare.png)
+![bg](assets/img/domekeeper.jpg)
+
 ---
 
+# Content Pipelines
+
+> Structured sequence of stages, tools, and methodologies used to conceptualize, design, develop, test, and deploy game content with consistency.
+---
+
+![bg](assets/img/gamejam-game.png)
+
+<div class="center-caption">Content Pipeline:<br/>Gamejams</div>
+
+---
+
+# Typical gamejam structure
+
+A gamejam may look like this for me:
+
+| DAY 1 | DAY 2| DAY 3|
+|---|---|---|
+| prototyping ideas | build levels | polish visuals with shaders & particles|
+| trying out art styles | compose music & sound FX | fix bugs |
+| playtest | playtest | playtest |
+| define constraints | coding | panic |
+
+---
+
+TODO: add image of gamejam content pipeline
+
+---
+
+![bg](assets/img/cave.png)
+
+<div class="center-caption">Content Pipeline:<br/>RPG Project</div>
+
+---
+
+TODO: add image of an RPG content pipeline
+
+---
 
 # There is no silver bullet
 
-- the success of your game may be dependent on the quality of the addon
-- building it yourself means you can own the design and architecture of it fully
-- addons may get out of date and you will spend time trying to patch them yourself in case Godot updates
-- debugging code that is not yours is often not fun and wastes a lot of time
-- how can you be sure the addon code is performant and does what it says it does? What guarantees does the addon give you?
+- addons may become outdated
+- addons may have bugs
+- addons can have different design goals
+- addons can break your game
+
+> Building it yourself = maintaining it yourself.
+
+---
+
+![bg](assets/img/siliconvalley.jpg)
+
+<div style="color:white; margin-top:-60px">
+<blockquote>You need to be twice as smart as the person who wrote the code in order to debug it.</blockquote>
+
+<i>Kernighan's Law</i>
+</div>
+
+---
+
+# The DIY approach
+
+- no external dependencies
+- consistent standard & practices across all code
+- any bug can be backtraced back to you (or Godot 😇)
+- no docs to learn required
+
+**BUT**
+
+```
+You need to know how to build it.
+```
+
+---
+
+# When to probably use addons
+
+- You do not want to build it yourself
+- You have no time to build it yourself
+- You want to build games, not technical systems
+- You like to explore how others have solved a problem
+- You want to get a headstart (e.g. gamejams) 
+
+---
+
+# Task Complexity
+
+| S | M | L | XL |
+|---|---|---|----|
+| fix translation | add new language | add voicelines | dialogue system |
+| change color of sword| update sword animation|add new weapon type| itemization system|
+| fix sound timing| add new sound effect| dynamic sound playback | integrating FMOD |
+| fix level collision | rework existing level | add new level | procedural level generation |
 
 ---
 

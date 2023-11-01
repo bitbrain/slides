@@ -22,12 +22,17 @@ section {
   font-family: 'Ubuntu', sans-serif;
   background-color: #edf0f3;
   color: #414042;
-  font-size: 32px;
+  font-size: 36px;
 }
 
 h1, h2 {
   font-family: 'Lilita', sans-serif;
   font-weight: normal;
+  color: #478cbf;
+  font-size: 70px;
+}
+
+h1 > strong {
   color: #478cbf;
 }
 
@@ -47,7 +52,7 @@ section::after {
 
 
 blockquote {
-  font-size: 1.5em;
+  font-size: 50px;
   text-align: left;
   font-weight: 700;
 }
@@ -80,7 +85,7 @@ marp-pre {
 
 marp-pre > code {
   color: #dae4ed;
-  font-size: 3em;
+  font-size: 32px;
 }
 
 marp-pre > code .hljs-string {
@@ -102,4 +107,16 @@ table tr > th {
   width: 200px;
   height: 200px;
   margin-top: 60px;
+}
+
+section table {
+  font-size: 30px;
+}
+
+.center-caption {
+  font-size: 100px;
+  font-family: 'Lilita', sans-serif;
+  color: white;
+  text-align: center;
+  margin-top: 130px;
 }
