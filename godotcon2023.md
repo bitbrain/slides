@@ -4,6 +4,7 @@ paginate: true
 marp: true
 ---
 
+
 ![bg left:40% 60%](assets/img/godot.png)
 
 # **Super-charging content production with Godot addons**
@@ -15,9 +16,12 @@ Building a pipeline to produce game content predictably.
 ![bg left:50%](assets/img/bitbrain-slide.png)
 # @bitbrain
 
+- German living in the UK 
 - working on a dwarven pixelart RPG! 💎⛏️
 - maintainer of **pandora** and **beehave** 🐝
 - Godot = 💖
+
+<center style="margin-top:50px;font-size:28px;"><u>bitbra.in/slides/godotcon2023.pdf</u></center>
 
 ---
 # Godot's Design Philosophy
@@ -120,6 +124,30 @@ Accellarate and automate common processes.
 
 ---
 
+Example unit test with `gdUnit4`:
+
+```python
+# GdUnit generated TestSuite
+class_name PropertyTest extends GdUnitTestSuite
+
+
+# TestSuite generated from
+const __source = "res://addons/pandora/model/property.gd"
+
+
+func test_string_property() -> void:
+	var property = PandoraProperty.new("123", "property", "string")
+	property.set_default_value("Hello World")
+	var new_property = PandoraProperty.new("", "", "")
+	new_property.load_data(property.save_data())
+	assert_that(new_property).is_equal(property)
+```
+---
+
+![bg width:90%](assets/img/github-actions.png)
+
+---
+
 # Integrations
 
 ![bg left:50%](assets/img/ethernet.jpg)
@@ -184,6 +212,8 @@ Godot extension that integrates the Jolt physics engine.
 | change color of sword| update sword animation|add new weapon type| itemization system|
 | fix sound timing| add new sound effect| dynamic sound playback | integrating FMOD |
 | fix level collision | rework existing level | add new level | procedural level generation |
+
+<!--
 ---
 
 <center>
@@ -209,6 +239,8 @@ Godot extension that integrates the Jolt physics engine.
 > Structured sequence of stages, tools, and methodologies used to conceptualize, design, develop, test, and deploy game content with consistency.
 
 <b style="margin-left:50px;">&#9135; ChatGPT</b>
+
+-->
 
 ---
 
