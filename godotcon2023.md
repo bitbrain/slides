@@ -168,42 +168,40 @@ Godot extension that integrates the Jolt physics engine.
 
 
 ---
-# Content Pipelines
+
+# Is there an addon for that?
+
+| S | M | L | XL |
+|---|---|---|----|
+| fix translation | add new language | add voicelines | dialogue system |
+| change color of sword| update sword animation|add new weapon type| itemization system|
+| fix sound timing| add new sound effect| dynamic sound playback | integrating FMOD |
+| fix level collision | rework existing level | add new level | procedural level generation |
+---
+
+<center>
+
+# Production Point Principle
+
+### by 🖤 HeartBeast
+
+<img class="avatar" src="assets/img/heartbeast.jpg">
+
+<u>heartgamedev.substack.com/p/production-point</u>
+</center>
+
+---
+
+![bg](assets/img/production-point.jpg)
+
+<div style="font-size:22px;float:right; margin-top:-50px">source: <u>heartgamedev.substack.com/p/production-point</u></div>
+
+---
+# Content Pipeline
 
 > Structured sequence of stages, tools, and methodologies used to conceptualize, design, develop, test, and deploy game content with consistency.
 
-<b style="margin-left:50px;">&#9135; bitbrain</b>
-
----
-
-![bg](assets/img/ludumdare.png)
-![bg](assets/img/domekeeper.jpg)
-
----
-
-![bg](assets/img/gamejam-game.png)
-
-<div class="center-caption">Content Pipeline:<br/>Gamejams</div>
-
----
-
-# Typical gamejam structure
-
-A gamejam may look like this for me:
-
-| DAY 1 | DAY 2| DAY 3|
-|---|---|---|
-| prototyping ideas | build levels | polish visuals with shaders & particles|
-| trying out art styles | compose music & sound FX | fix bugs |
-| playtest | playtest | playtest |
-| define constraints | coding | panic |
-
-
----
-
-![bg](assets/img/cave.png)
-
-<div class="center-caption">Content Pipeline:<br/>RPG Project</div>
+<b style="margin-left:50px;">&#9135; ChatGPT</b>
 
 ---
 
@@ -253,17 +251,6 @@ You need to know how to build it.
 
 ---
 
-# Is there an addon for that?
-
-| S | M | L | XL |
-|---|---|---|----|
-| fix translation | add new language | add voicelines | dialogue system |
-| change color of sword| update sword animation|add new weapon type| itemization system|
-| fix sound timing| add new sound effect| dynamic sound playback | integrating FMOD |
-| fix level collision | rework existing level | add new level | procedural level generation |
-
----
-
 # Properties of a good addon
 
 A **good** addon should be:
@@ -274,6 +261,17 @@ A **good** addon should be:
 - tested
 - **maintained** or **archived**
 - compatible
+
+---
+
+# README.md
+
+1. Recognizable Addon Logo
+2. gifs and images showing what your addon does
+3. how to install
+4. compatibility matrix
+5. how to contribute guide
+6. wiki (e.g. via `docsify`)
 
 ---
 
