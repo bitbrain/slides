@@ -113,7 +113,7 @@ Accellarate and automate common processes.
 
 ---
 
-# Integration addons
+# Integrations
 
 ![bg left:50%](assets/img/ethernet.jpg)
 
@@ -123,16 +123,13 @@ Connect any tool directly into Godot Engine.
 
 ![bg right:40%](assets/img/fmod-studio.jpg)
 
-# FMOD GDExtension
+![width:300px](assets/img/fmod.png)
 
 `utopia-rise/fmod-gdextension`
 
 `alessandrofama/fmod-for-godot`
 
-<div style="text-align: center; margin-top:90px">
 
-![width:300px invert](assets/img/fmod.png)
-</div>
 
 ---
 
@@ -152,16 +149,13 @@ Godot extension that integrates the Jolt physics engine.
 
 ---
 
- # Extending the editor
+ # Other types of addons
 
-- show example of feature extending addons
-- add image
----
-
-# Templates
-
-- show example of template repo addon
-- add image
+- editor extensions
+- templates
+- shaders
+- custom nodes``
+- themes
 
 ---
 # Addon discovery
@@ -174,34 +168,17 @@ Godot extension that integrates the Jolt physics engine.
 
 
 ---
+# Content Pipelines
 
-<center>
+> Structured sequence of stages, tools, and methodologies used to conceptualize, design, develop, test, and deploy game content with consistency.
 
-# Production Point Principle
-
-### by 🖤 HeartBeast
-
-<img class="avatar" src="assets/img/heartbeast.jpg">
-
-<u>heartgamedev.substack.com/p/production-point</u>
-</center>
-
----
-
-![bg](assets/img/production-point.jpg)
-
-<div style="float:right; margin-top:-50px">source: <u>heartgamedev.substack.com/p/production-point</u></div>
+<b style="margin-left:50px;">&#9135; bitbrain</b>
 
 ---
 
 ![bg](assets/img/ludumdare.png)
 ![bg](assets/img/domekeeper.jpg)
 
----
-
-# Content Pipelines
-
-> Structured sequence of stages, tools, and methodologies used to conceptualize, design, develop, test, and deploy game content with consistency.
 ---
 
 ![bg](assets/img/gamejam-game.png)
@@ -221,19 +198,12 @@ A gamejam may look like this for me:
 | playtest | playtest | playtest |
 | define constraints | coding | panic |
 
----
-
-TODO: add image of gamejam content pipeline
 
 ---
 
 ![bg](assets/img/cave.png)
 
 <div class="center-caption">Content Pipeline:<br/>RPG Project</div>
-
----
-
-TODO: add image of an RPG content pipeline
 
 ---
 
@@ -244,16 +214,16 @@ TODO: add image of an RPG content pipeline
 - addons can have different design goals
 - addons can break your game
 
-> Building it yourself = maintaining it yourself.
+![bg vertical left:50%](assets/img/brotato.png)
 
 ---
 
 ![bg](assets/img/siliconvalley.jpg)
 
 <div style="color:white; margin-top:-60px">
-<blockquote>You need to be twice as smart as the person who wrote the code in order to debug it.</blockquote>
+<blockquote><p><i>You need to be twice as smart as the person who wrote the code in order to debug it.</i></p></blockquote>
 
-<i>Kernighan's Law</i>
+<b style="margin-left:50px;">&#9135; Kernighan's Law</b>
 </div>
 
 ---
@@ -283,7 +253,7 @@ You need to know how to build it.
 
 ---
 
-# Task Complexity
+# Is there an addon for that?
 
 | S | M | L | XL |
 |---|---|---|----|
