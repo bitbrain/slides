@@ -154,7 +154,7 @@ Godot extension that integrates the Jolt physics engine.
 - editor extensions
 - templates
 - shaders
-- custom nodes``
+- custom nodes
 - themes
 
 ---
