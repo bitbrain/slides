@@ -10,5 +10,5 @@ A collection of conference slides by bitbrain.
 
 Slides are built with [marp](https://marp.app). For example, run:
 ```bash
-marp godotcon2023.md --pdf --allow-local-files --theme=godot.css
+marp godotcon2023.md --pdf --html --allow-local-files --theme=godot.css
 ```
