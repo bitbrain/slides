@@ -24,8 +24,10 @@ Building a pipeline to produce game content predictably.
 
 > [...] new features from the core developers often focus on what will benefit the most users first.
 
+<div style="margin-top:230px; font-size:20px;">
 source:
 https://docs.godotengine.org/en/stable/getting_started/introduction/godot_design_philosophy.html
+</span>
 
 ---
 # Terminology
@@ -50,8 +52,10 @@ version="2.0-Alpha-10 (Godot 4.1.2)"
 script="plugin.gd"
 ```
 
+<div style="margin-top:100px;font-size:25px;">
 source:
 https://github.com/coppolaemilio/dialogic/blob/main/addons/dialogic/plugin.cfg
+</div>
 
 ---
 # GDExtensions
@@ -69,8 +73,11 @@ windows.debug.x86_64 = "res://addons/fmod/libs/windows/libGodotFmod.windows.temp
 windows.release.x86_64 = "res://addons/fmod/libs/windows/libGodotFmod.windows.template_release.x86_64.dll"
 ```
 
+<div style="margin-top:140px;font-size:20px;">
 source:
 https://github.com/utopia-rise/fmod-gdextension/blob/master/demo/addons/fmod/fmod.gdextension
+
+</div>
 
 ---
 
@@ -284,12 +291,16 @@ A **good** addon should be:
 - `#3367` Add ExtensionDevelopmentPlugin for in-editor native extension development
 
 
-_source: <u>github.com/godotengine/godot-proposals</u>_
+<span style="font-size:30px;">source: <u>github.com/godotengine/godot-proposals</u></span>
 
 ---
-# Questions?
 
+<center>
+
+# Questions?
 
 ![width:350px](./assets/img/bitbrain-discord.svg)
 
-### youtube.com/@bitbraindev
+### <u>youtube.com/@bitbraindev</u>
+
+</center>
