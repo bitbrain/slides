@@ -15,9 +15,12 @@ Building a pipeline to produce game content predictably.
 ![bg left:50%](assets/img/bitbrain-slide.png)
 # @bitbrain
 
+- German based in the UK
 - working on a dwarven pixelart RPG! 💎⛏️
 - maintainer of **pandora** and **beehave** 🐝
 - Godot = 💖
+
+<center style="margin-top:80px; font-size:28px"><u>bitbra.in/slides/godotcon2023.pdf</u></center>
 
 ---
 # Godot's Design Philosophy
@@ -136,8 +139,6 @@ Connect any tool directly into Godot Engine.
 
 `alessandrofama/fmod-for-godot`
 
-
-
 ---
 
 
@@ -159,6 +160,7 @@ Godot extension that integrates the Jolt physics engine.
  # Other types of addons
 
 - editor extensions
+- language bindings
 - templates
 - shaders
 - custom nodes
