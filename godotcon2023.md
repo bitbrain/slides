@@ -123,6 +123,30 @@ Accellarate and automate common processes.
 
 ---
 
+Example unit test with `gdUnit4`:
+
+```python
+# GdUnit generated TestSuite
+class_name PropertyTest extends GdUnitTestSuite
+
+
+# TestSuite generated from
+const __source = "res://addons/pandora/model/property.gd"
+
+
+func test_string_property() -> void:
+	var property = PandoraProperty.new("123", "property", "string")
+	property.set_default_value("Hello World")
+	var new_property = PandoraProperty.new("", "", "")
+	new_property.load_data(property.save_data())
+	assert_that(new_property).is_equal(property)
+```
+---
+
+![bg width:90%](assets/img/github-actions.png)
+
+---
+
 # Integrations
 
 ![bg left:50%](assets/img/ethernet.jpg)
